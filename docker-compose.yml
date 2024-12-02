@@ -2,8 +2,8 @@ version: '3'
 services:
   frontend:
     build:
-      context: ./frontend/101405218_comp3123_assignment2_reactjs
-      dockerfile: Dockerfile
+      context: ./frontend
+      dockerfile: 101405218_comp3123_assignment2_reactjs/Dockerfile
     ports:
       - '3000:3000'
     depends_on:
